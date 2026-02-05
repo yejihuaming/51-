@@ -15,7 +15,8 @@ MCU 的全称是微控制器，也常被称作单片机，是将中央处理器�
 ### 个人目前学习目标：
 学习并完成51单片机的基本应用
 ### 安装keil5并新建了项目
-![keil5]
+<img width="816" height="1094" alt="Snipaste_2026-02-05_23-59-09" src="https://github.com/user-attachments/assets/5775589e-553f-4980-a176-0494586412e0" />
+
 ## Markdown语法学习
 ### 所有的markdown语法符号后要加上“ ”
 ### 标题的应用 一个“#”表示一个等级的标题
