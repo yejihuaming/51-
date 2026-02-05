@@ -14,8 +14,11 @@
 MCU 的全称是微控制器，也常被称作单片机，是将中央处理器（CPU）、存储器（RAM/ROM/Flash）、输入输出接口（I/O 口），以及定时器 / 计数器、中断控制器、AD/DA 转换器、串口 / SP I/I2C 等通信外设集成在一块芯片上的专用微型计算机。
 ### 个人目前学习目标：
 学习并完成51单片机的基本应用
-### 安装keil5并新建了项目
+## 安装keil5并新建了项目
 <img width="816" height="1094" alt="Snipaste_2026-02-05_23-59-09" src="https://github.com/user-attachments/assets/5775589e-553f-4980-a176-0494586412e0" />
+
+## 安装proteus并制作一个简单的LED串联电路
+<img width="647" height="680" alt="Snipaste_2026-02-06_01-23-35" src="https://github.com/user-attachments/assets/4801c9c0-273d-4dca-98ab-dd2c36f98b27" />
 
 ## Markdown语法学习
 ### 所有的markdown语法符号后要加上“ ”
