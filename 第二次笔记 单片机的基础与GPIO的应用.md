@@ -5,7 +5,8 @@
 3. 特殊功能寄存器（SFR）控制与管理外设；常见为p0-p0（端口寄存器）
 4. C指的是天底工作电压为3.8V-5.5V
 ## 引脚图片:
-![1](f6cb166ac15145f395fa54f20bfa82dd.png)
+<img width="494" height="766" alt="f6cb166ac15145f395fa54f20bfa82dd" src="https://github.com/user-attachments/assets/d49aa30f-c356-4c6d-b5bc-97391b267d9d" />
+
 ### Vcc：正极。Gnd/Vss：负极 XTAL：时钟计时（接晶振） RST：复位 
 #### 
 1. p0口（P0.0~P0.7）：三态双向口，无内部上拉，作通用 I/O 需外接上拉
@@ -26,7 +27,8 @@
 
 引脚分为4组，一组8个
 ## 最小系统组成：
-![2](5cd3fbf889ca3ef3b1034f6cbbd48a3e.png)
+<img width="930" height="655" alt="5cd3fbf889ca3ef3b1034f6cbbd48a3e" src="https://github.com/user-attachments/assets/2583d351-1542-4b46-807d-f96cbe452190" />
+
 ### 电路拆解
 1. 时钟电路：
 产生时间信号控制电路，其输入端引脚为XTAL1，其输出端引脚为XTAL2。
@@ -36,12 +38,14 @@
 提供稳定的电压、
 # 2月8日
 ## LED的原理
-![3](Snipaste_2026-02-09_00-24-32.png)
+<img width="158" height="152" alt="Snipaste_2026-02-09_00-24-32" src="https://github.com/user-attachments/assets/f29fb2b2-28f2-441b-9c15-3bc9acc7c58f" />
+
 尖角为负极，必须正负级接对才会发亮,必须接限流电阻，防止电流过大
 ## GPIO的工作原理
 CPU通过寄存器接引脚连接并控制外电路，实现数字信号双向连通
 ## LED常亮显示
-![4](Snipaste_2026-02-09_00-50-52.png)
+<img width="651" height="640" alt="Snipaste_2026-02-09_00-50-52" src="https://github.com/user-attachments/assets/c295cc9c-fbbe-475b-9a42-f721a062e82a" />
+
 ```c
 #include <REG52.H>
 void main()
@@ -55,16 +59,13 @@ void main()
 ```
 # 2月9日
 ## LED闪烁
-<video controls src="LED串联电路 - Proteus 8 Professional - 原理图绘制 2026-02-10 01-52-01.mp4" title="Title"></video>
-
 ## 阻塞延时函数
-![5](Snipaste_2026-02-10_01-53-53.png)
+<img width="303" height="541" alt="Snipaste_2026-02-10_01-53-53" src="https://github.com/user-attachments/assets/80cf2044-2908-4079-ac51-b95539946c92" />
+
 这个函数本质为通过延迟亮灯与熄灯的频率以达到闪烁的目的；
 延迟函数则是通过while循环的次数以控制延迟的时间。
 # 2月10日
 ## LED流水灯制作
-<video controls src="2026-02-11 09-28-53.mp4" title="Title"></video>
-
 ## 函数编写
 ```c
 #include <REG52.H>
@@ -136,4 +137,3 @@ void main()
 }
 ```
 ## 按键控制
-<video controls src="2026-02-12 01-02-48.mp4" title=""></video>
